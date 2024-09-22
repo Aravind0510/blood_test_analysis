@@ -16,6 +16,15 @@ This project implements a Health Report Analysis API using Flask, allowing users
 4. **Email Functionality**: Integrated SMTP to send emails with recommendations and articles.
 5. **Security**: Employed authentication mechanisms to secure the API endpoints.
 
+## How I Approached the Task
+1. **Understanding Requirements**  I reviewed the project requirements to identify the main functionalities needed, including PDF analysis, article retrieval, and email notifications.
+2. **Technology Stack**: Chose Flask for the backend due to its lightweight nature and ease of use for creating APIs. I also integrated libraries for PDF processing and email functionality.
+3. **Designing the API**: I structured the API to handle file uploads and user requests securely. Implemented endpoint for processing blood test reports.
+4. **Data Extraction**: Developed an algorithm to extract and analyze data from the uploaded PDF files, ensuring accurate interpretation of health metrics.
+5. **Web Search Integration**: Implemented a search function to retrieve health-related articles based on the analysis results.
+6. **Email Notifications**: Set up SMTP email functionality to send personalized health recommendations and article links to the user.
+7. **Testing and Documentation**: Thoroughly tested the API for various use cases and documented the setup and usage instructions for ease of understanding.
+
 ## Setup Instructions
 
 ### Prerequisites
@@ -54,7 +63,7 @@ This project implements a Health Report Analysis API using Flask, allowing users
 - A confirmation message will be sent to the user's email with analysis results and health recommendations.
 
 ## Acknowledgements
-Thanks to the open-source community for the libraries and frameworks that made this project possible.
+- Thanks to the open-source community for the libraries and frameworks that made this project possible.
 
 
 ### Final Steps
@@ -62,4 +71,4 @@ Thanks to the open-source community for the libraries and frameworks that made t
 2. Test your application thoroughly to ensure everything works as expected before submission.
 3. Include any additional documentation relevant to specific parts of your code or any setup instructions unique to your project.
 
-Feel free to adjust any sections according to your project's specifics! If you have further requirements or questions, just let me know!
+- Feel free to adjust any sections according to your project's specifics! If you have further requirements or questions, just let me know!
