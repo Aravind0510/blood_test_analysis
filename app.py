@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # API Key for simple authentication (use something more secure for production)
-API_KEY = os.getenv('API_KEY', 'AIzaSyAaDlYu-qG21uXcrBzNrQAWQOKZ1pho1Ns')
+API_KEY = os.getenv('API_KEY', 'Your key')
 
 # Home route to render the upload form
 @app.route('/')
