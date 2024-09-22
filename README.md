@@ -34,10 +34,13 @@ This project implements a Health Report Analysis API using Flask, allowing users
 3.Create an uploads directory to store uploaded PDF files:
   ```bash
     mkdir uploads
+```
+
 4.Run the application:
 
 ```bash
   python app.py
+```
 
 5.Access the API at http://127.0.0.1:5000/.
 
