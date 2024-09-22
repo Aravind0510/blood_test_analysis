@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Report Analysis</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="parallax"></div>
+    
+    <div class="container">
+        <h1>Health Report Analysis</h1>
+        
+        <form id="uploadForm" action="/process" method="post" enctype="multipart/form-data">
+            <input type="file" name="pdf_file" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="results">
+            <h2>Analysis Results</h2>
+            <div id="analysis-output">
+                <p><strong>Cholesterol:</strong> Not found</p>
+                <p><strong>Glucose:</strong> Not found</p>
+            </div>
+            
+            <h2>Health Recommendations</h2>
+            <div id="recommendations">
+                <p>Recommendations have been sent to your email.</p>
+            </div>
+            
+            <h2>Related Articles</h2>
+            <ul id="article-links">
+                <li><a href="https://www.betterhealth.vic.gov.au/health/conditionsandtreatments/cholesterol-healthy-eating-tips">Cholesterol Healthy Eating Tips</a></li>
+                <li><a href="https://www.healthline.com/nutrition/blood-sugar-and-cholesterol-friendly-foods">Blood Sugar and Cholesterol Friendly Foods</a></li>
+                <li><a href="https://www.healthdirect.gov.au/cholesterol">Health Direct: Cholesterol</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
